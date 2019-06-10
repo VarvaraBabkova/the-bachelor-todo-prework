@@ -56,7 +56,7 @@ def get_average_age_for_season(data, season)
       s_data.each do |person|
 
           cont_amount += 1
-          total_age += person[:age].to_f
+          total_age += person["age"].to_f
           binding.pry
       end
 
