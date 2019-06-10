@@ -57,6 +57,7 @@ def get_average_age_for_season(data, season)
           total_age += person[:age].to_f
 
       end
+      
     end
   end
   return total_age/cont_amount
