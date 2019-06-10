@@ -57,7 +57,6 @@ def get_average_age_for_season(data, season)
 
           cont_amount += 1
           total_age += person["age"].to_i
-          binding.pry
       end
 
     end
