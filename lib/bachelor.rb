@@ -52,10 +52,10 @@ def get_average_age_for_season(data, season)
   data.each do |s, s_data|
     if s == season
       s_data.each do |person|
-      
+
           cont_amount += 1
           total_age += person[:age]
-        
+
       end
     end
   end
