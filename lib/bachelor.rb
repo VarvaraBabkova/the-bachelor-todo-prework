@@ -18,10 +18,10 @@ def get_contestant_name(data, occupation)
   data.each do |s, s_data|
       s_data.each do |person|
         if person["occupation"] == occupation
-          return person["name"]
+          name =  person["name"]
         end #end if
     end #data.each
-  
+  return name
 end #def
 
 def count_contestants_by_hometown(data, hometown)
